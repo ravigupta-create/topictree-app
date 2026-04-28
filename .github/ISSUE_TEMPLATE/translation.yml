@@ -1,0 +1,77 @@
+name: Translation improvement
+description: Suggest a fix or improvement to a non-English UI string.
+title: "i18n(<locale>): "
+labels: ["i18n", "good-first-issue"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping make TopicTree more usable in your language.
+
+        For most edits it's actually faster to **open a pull request directly**
+        against `src/translations/<locale>.json` — see
+        [CONTRIBUTING-TRANSLATIONS.md](https://github.com/ravigupta-create/topictree-app/blob/main/CONTRIBUTING-TRANSLATIONS.md).
+
+        Use this issue form if you want to *flag* something that needs fixing
+        but don't want to open a PR yourself.
+
+  - type: dropdown
+    id: locale
+    attributes:
+      label: Language
+      description: Which locale's translation has a problem?
+      options:
+        - Spanish (es)
+        - French (fr)
+        - German (de)
+        - Italian (it)
+        - Portuguese (pt)
+        - Chinese (zh)
+        - Japanese (ja)
+        - Korean (ko)
+        - Hindi (hi)
+        - Arabic (ar)
+        - Russian (ru)
+        - Other / new language
+    validations:
+      required: true
+
+  - type: input
+    id: key
+    attributes:
+      label: Translation key (if known)
+      description: e.g. `action.start`, `nav.search`. Leave blank if you don't know.
+      placeholder: "action.start"
+
+  - type: textarea
+    id: current
+    attributes:
+      label: Current translation (what TopicTree shows)
+      description: Copy-paste the wrong translation as it currently appears.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Suggested translation
+      description: What should it say instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why is the current translation wrong?
+      description: Awkward phrasing, regional dialect mismatch, grammatical error, etc.
+      placeholder: "The current translation is too formal for a student-facing app."
+
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Agreement
+      options:
+        - label: I'm a native or fluent speaker of this language
+          required: true
+        - label: I understand the suggestion will be released under CC BY-NC-SA 4.0 like the rest of the project
+          required: true
