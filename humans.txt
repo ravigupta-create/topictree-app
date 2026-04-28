@@ -1,12 +1,10 @@
 /* TEAM */
-Creator: Saavan Gupta
+Creator: Saavan
 Site: https://ravigupta-create.github.io/topictree-app
-Location: Woodside, California, USA
 
 /* SITE */
 Name: TopicTree
-Purpose: A free adaptive learning platform built client-side, with no sign-up, no ads, no tracking, no server-side cost to users. Research-informed engine (BKT, SM-2, ZPD), 200+ study tools, 120+ courses, 1,400+ written lessons.
-Built with: Next.js 16, React 19, TypeScript 5, Tailwind v4, KaTeX, Web Audio, Web Speech, Canvas
-Source: https://github.com/ravigupta-create/topictree-app
-License: Source is public and forkable. No paywalls, no subscriptions.
+Purpose: A free adaptive learning platform built client-side, with no sign-up, no ads, no tracking, no server-side cost to users. 200+ study tools, 120+ courses, 1,400+ written lessons.
+Built with: Next.js, React, TypeScript, Tailwind, KaTeX, Web Audio, Web Speech, Canvas
+License: CC BY-NC-SA 4.0
 Hosted: GitHub Pages (static)
