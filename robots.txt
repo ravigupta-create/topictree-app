@@ -1,0 +1,81 @@
+User-Agent: *
+Allow: /
+Disallow: /_next/
+Disallow: /api/
+
+User-Agent: GPTBot
+Disallow: /
+
+User-Agent: ChatGPT-User
+Disallow: /
+
+User-Agent: OAI-SearchBot
+Disallow: /
+
+User-Agent: anthropic-ai
+Disallow: /
+
+User-Agent: ClaudeBot
+Disallow: /
+
+User-Agent: Claude-Web
+Disallow: /
+
+User-Agent: Google-Extended
+Disallow: /
+
+User-Agent: PerplexityBot
+Disallow: /
+
+User-Agent: Perplexity-User
+Disallow: /
+
+User-Agent: Bytespider
+Disallow: /
+
+User-Agent: CCBot
+Disallow: /
+
+User-Agent: cohere-ai
+Disallow: /
+
+User-Agent: Diffbot
+Disallow: /
+
+User-Agent: FacebookBot
+Disallow: /
+
+User-Agent: Meta-ExternalAgent
+Disallow: /
+
+User-Agent: Meta-ExternalFetcher
+Disallow: /
+
+User-Agent: ImagesiftBot
+Disallow: /
+
+User-Agent: Omgilibot
+Disallow: /
+
+User-Agent: Omgili
+Disallow: /
+
+User-Agent: PetalBot
+Disallow: /
+
+User-Agent: Applebot-Extended
+Disallow: /
+
+User-Agent: Timpibot
+Disallow: /
+
+User-Agent: VelenPublicWebCrawler
+Disallow: /
+
+User-Agent: Webzio-Extended
+Disallow: /
+
+User-Agent: YouBot
+Disallow: /
+
+Sitemap: https://ravigupta-create.github.io/topictree-app/sitemap.xml

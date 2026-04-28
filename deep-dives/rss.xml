@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TopicTree Deep Dives</title>
+    <link>https://ravigupta-create.github.io/topictree-app/deep-dives</link>
+    <atom:link href="https://ravigupta-create.github.io/topictree-app/deep-dives/rss.xml" rel="self" type="application/rss+xml" />
+    <description>Long-form written lessons explaining foundational ideas across math, science, history, economics, and CS. Updated regularly.</description>
+    <language>en</language>
+    <lastBuildDate>Tue, 28 Apr 2026 20:06:26 GMT</lastBuildDate>
+    <ttl>1440</ttl>
+    <item>
+      <title>Why negative times negative equals positive</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#negative-times-negative</link>
+      <guid isPermaLink="false">negative-times-negative</guid>
+      <description>Every student has been told that (−3)×(−4) = 12. Almost none have been told why. The answer is one of the cleanest examples of a rule that exists because it has to.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>The intuition behind the derivative</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#derivative-intuition</link>
+      <guid isPermaLink="false">derivative-intuition</guid>
+      <description>Everyone learns that the derivative is &quot;the slope of the tangent line.&quot; That&apos;s true but almost useless as a mental model. Here&apos;s what a derivative actually tells you.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>Why the number $e$ shows up everywhere</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#why-e</link>
+      <guid isPermaLink="false">why-e</guid>
+      <description>seems arbitrary. It&apos;s not. It&apos;s the unique base where growth is exactly equal to itself at every moment — and that property makes it show up in finance, biology, radioactivity, and dozens of other places.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>How proof by induction actually works</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#proof-by-induction</link>
+      <guid isPermaLink="false">proof-by-induction</guid>
+      <description>Induction is often taught as a mysterious two-step ritual. It&apos;s actually one of the simplest proof techniques — once you see it as knocking over dominoes.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>What a limit actually is</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#limits</link>
+      <guid isPermaLink="false">limits</guid>
+      <description>Limits are the gateway concept to calculus. Most textbooks introduce them formally with and , which is precise but almost impossible to learn from cold. Here&apos;s the intuitive version first.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>What mass really means (and why it isn&apos;t weight)</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#mass-vs-weight</link>
+      <guid isPermaLink="false">mass-vs-weight</guid>
+      <description>Ask ten people what mass is and you&apos;ll get ten versions of &quot;how heavy something is.&quot; That&apos;s weight. Mass is something different — and the difference is why astronauts bounce on the moon.</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>What photosynthesis actually does</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#photosynthesis</link>
+      <guid isPermaLink="false">photosynthesis</guid>
+      <description>&quot;Plants eat sunlight&quot; is close to right, but misses the point. Photosynthesis is the most important chemical reaction on Earth, and it does exactly two things: builds carbohydrates from thin air, and releases the oxygen you breathe.</description>
+      <category>Biology</category>
+    </item>
+    <item>
+      <title>The first two laws of thermodynamics, demystified</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#thermodynamics</link>
+      <guid isPermaLink="false">thermodynamics</guid>
+      <description>The first law says you can&apos;t create energy. The second law says you can&apos;t even fully use the energy you already have. Together they explain why perpetual motion is impossible and why everything tends toward disorder.</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>How a transistor actually works</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#how-transistors-work</link>
+      <guid isPermaLink="false">how-transistors-work</guid>
+      <description>Every computer on Earth runs on trillions of transistors. They&apos;re described as &quot;electronic switches,&quot; which is true but hides the clever physics. Here&apos;s what one actually does.</description>
+      <category>Computer Science</category>
+    </item>
+    <item>
+      <title>Why computers use binary (and why decimal is a bad idea for them)</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#binary</link>
+      <guid isPermaLink="false">binary</guid>
+      <description>Humans count in base 10. Computers count in base 2. This isn&apos;t an arbitrary choice — binary is the only base that plays well with physics.</description>
+      <category>Computer Science</category>
+    </item>
+    <item>
+      <title>Why the French Revolution actually happened</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#french-revolution</link>
+      <guid isPermaLink="false">french-revolution</guid>
+      <description>The storming of the Bastille is the image. But the Bastille only had seven prisoners that day, and the crowd wasn&apos;t really there to free them. To understand why 1789 is the most consequential year in modern European history, you have to look past the symbols.</description>
+      <category>History</category>
+    </item>
+    <item>
+      <title>What supply and demand actually means</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#supply-and-demand</link>
+      <guid isPermaLink="false">supply-and-demand</guid>
+      <description>The graph is taught in every intro econ class. Two lines, one up, one down, price on the y-axis. It&apos;s right, but it hides the real insight: prices carry information no central planner could compute.</description>
+      <category>Economics</category>
+    </item>
+    <item>
+      <title>What makes a poem a poem</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#what-makes-poem</link>
+      <guid isPermaLink="false">what-makes-poem</guid>
+      <description>&quot;It&apos;s poetry because it rhymes&quot; is wrong — plenty of great poems don&apos;t rhyme. &quot;It&apos;s poetry because it has short lines&quot; also misses it. The real thing that separates a poem from prose is that every word is doing extra work.</description>
+      <category>Writing</category>
+    </item>
+    <item>
+      <title>Why democracy is harder than it looks</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#why-democracy-is-hard</link>
+      <guid isPermaLink="false">why-democracy-is-hard</guid>
+      <description>&quot;Democracy&quot; usually gets reduced to &quot;majority rules.&quot; But majority rule is easy. Designing a system where a free people can govern themselves without the majority crushing everyone else, and without everyone else crushing the majority, is one of the hardest engineering problems in history.</description>
+      <category>Philosophy</category>
+    </item>
+    <item>
+      <title>What Big-O notation really tells you</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#big-o</link>
+      <guid isPermaLink="false">big-o</guid>
+      <description>, , — the notation is everywhere in programming interviews but its usefulness is often taught badly. It&apos;s not about exact time. It&apos;s about how an algorithm behaves when the problem gets bigger.</description>
+      <category>Computer Science</category>
+    </item>
+    <item>
+      <title>Why the Pythagorean theorem has so many proofs</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#pythagoras-real</link>
+      <guid isPermaLink="false">pythagoras-real</guid>
+      <description>There are over 370 known proofs of the Pythagorean theorem — more than almost any other theorem in mathematics. That&apos;s not a coincidence. It&apos;s because the result is true for reasons that show up in many different corners of geometry.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>Bayes&apos; theorem, the intuitive version</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#bayes-theorem</link>
+      <guid isPermaLink="false">bayes-theorem</guid>
+      <description>Bayes&apos; theorem is one of those results that looks impenetrable on first read and obvious on second. The key is to stop memorizing the formula and start thinking about how evidence updates your beliefs.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>What a vector actually is</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#vectors</link>
+      <guid isPermaLink="false">vectors</guid>
+      <description>In physics class a vector is &quot;an arrow with direction and magnitude.&quot; In math class it&apos;s &quot;an element of a vector space.&quot; Both are right. The deeper definition — which lets you do calculus with polynomials and machine learning with images — is subtler.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>Why $\pi$ shows up so often</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#pi-everywhere</link>
+      <guid isPermaLink="false">pi-everywhere</guid>
+      <description>is the ratio of a circle&apos;s circumference to its diameter. So why does it appear in probability distributions, physics equations, and problems with no circles in sight?</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>Why the bell curve is everywhere</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#normal-distribution</link>
+      <guid isPermaLink="false">normal-distribution</guid>
+      <description>Heights, test scores, measurement errors, stock price fluctuations, noise in electronics — all follow roughly the same bell-shaped distribution. That&apos;s not a coincidence. It&apos;s a theorem.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>Why prime numbers matter so much</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#primes</link>
+      <guid isPermaLink="false">primes</guid>
+      <description>Primes are the atoms of arithmetic. Every positive integer factors uniquely into primes, which sounds like a curiosity until you realize the entire internet&apos;s security is built on this one property.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>How recursion actually works (and when to use it)</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#recursion</link>
+      <guid isPermaLink="false">recursion</guid>
+      <description>Recursion is notorious for being &quot;hard.&quot; It isn&apos;t. It&apos;s just a different way of thinking about loops — one that happens to be much cleaner for some problems and much worse for others.</description>
+      <category>Computer Science</category>
+    </item>
+    <item>
+      <title>Why passwords get hashed, not encrypted</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#password-hashing</link>
+      <guid isPermaLink="false">password-hashing</guid>
+      <description>When you sign up on a website, the site doesn&apos;t store your password. It stores a hash of it. That distinction — hashing vs encryption — is the reason database breaches aren&apos;t instant catastrophes.</description>
+      <category>Computer Science</category>
+    </item>
+    <item>
+      <title>Why the sky is blue</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#why-sky-blue</link>
+      <guid isPermaLink="false">why-sky-blue</guid>
+      <description>Sunlight is white — a mix of all visible wavelengths. Yet the daytime sky is blue, sunsets are red, and the Moon from space has no sky at all. Three different questions with one shared answer: Rayleigh scattering.</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>How DNA became life&apos;s blueprint</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#dna-blueprint</link>
+      <guid isPermaLink="false">dna-blueprint</guid>
+      <description>DNA is often called &quot;the blueprint of life,&quot; which is a useful metaphor that hides the real story. A blueprint is a static drawing. DNA is more like a recipe book that reads itself and builds the chef.</description>
+      <category>Biology</category>
+    </item>
+    <item>
+      <title>What a chemical bond actually is</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#chemical-bond</link>
+      <guid isPermaLink="false">chemical-bond</guid>
+      <description>&quot;A chemical bond holds atoms together&quot; is true but vague. The real answer — and the reason chemistry is a field — is that bonds are what happen when atoms share or swap electrons to reach more stable configurations.</description>
+      <category>Chemistry</category>
+    </item>
+    <item>
+      <title>Why money has value</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#why-money-works</link>
+      <guid isPermaLink="false">why-money-works</guid>
+      <description>A \$20 bill is just printed paper. Bitcoin is just numbers in a database. Gold is a shiny metal. Why does any of it have value? The answer isn&apos;t metallurgy or printing — it&apos;s a shared story everyone agrees to tell.</description>
+      <category>Economics</category>
+    </item>
+    <item>
+      <title>What inflation really is</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#inflation</link>
+      <guid isPermaLink="false">inflation</guid>
+      <description>Inflation is usually described as &quot;rising prices,&quot; but that&apos;s a symptom, not a cause. What&apos;s actually happening is that the value of each unit of currency is falling — and figuring out why is most of macroeconomics.</description>
+      <category>Economics</category>
+    </item>
+    <item>
+      <title>How logical fallacies trick smart people</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#logical-fallacies</link>
+      <guid isPermaLink="false">logical-fallacies</guid>
+      <description>A logical fallacy is an argument that feels persuasive but isn&apos;t. Recognizing them is one of the most durable upgrades to your thinking — they show up in politics, advertising, arguments with friends, and in your own head when you&apos;re not looking.</description>
+      <category>Philosophy</category>
+    </item>
+    <item>
+      <title>What separates great writing from competent writing</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#great-writing</link>
+      <guid isPermaLink="false">great-writing</guid>
+      <description>Most writing advice tells you to use shorter sentences and active voice. That&apos;s table stakes. Great writing has one deeper quality: every sentence does exactly the work it needs to, and nothing else.</description>
+      <category>Writing</category>
+    </item>
+    <item>
+      <title>What AI is actually doing</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#what-ai-does</link>
+      <guid isPermaLink="false">what-ai-does</guid>
+      <description>&quot;AI&quot; has come to mean anything a computer does that used to feel impressive. The current wave — large language models — is doing one surprisingly specific thing: predicting the next token.</description>
+      <category>Computer Science</category>
+    </item>
+    <item>
+      <title>Why order of operations exists (and why PEMDAS lies slightly)</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#order-of-operations</link>
+      <guid isPermaLink="false">order-of-operations</guid>
+      <description>PEMDAS gets you through middle school, but it&apos;s a memory aid that hides the real rule. Understanding why order matters is half of algebra.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>What absolute value is really measuring</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#absolute-value</link>
+      <guid isPermaLink="false">absolute-value</guid>
+      <description>is taught as &quot;strip the negative sign,&quot; which works but misses the point. It&apos;s a distance.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>Why linear equations have exactly zero, one, or infinitely many solutions</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#linear-equations-why</link>
+      <guid isPermaLink="false">linear-equations-why</guid>
+      <description>A single linear equation in one variable never has, say, two solutions. It&apos;s always 0, 1, or — and there&apos;s a simple reason.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>Slope is rise over run for a reason</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#slope-intuition</link>
+      <guid isPermaLink="false">slope-intuition</guid>
+      <description>&apos;Rise over run&apos; feels arbitrary until you realize it&apos;s just the fraction that answers the question &apos;per one unit right, how many units up?&apos;</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>How completing the square actually works</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#completing-square</link>
+      <guid isPermaLink="false">completing-square</guid>
+      <description>Completing the square is often taught as a mechanical trick. It&apos;s one picture: you&apos;re literally completing a geometric square.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>Why the exponent rules are the exponent rules</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#exponent-rules</link>
+      <guid isPermaLink="false">exponent-rules</guid>
+      <description>looks like a rule to memorize. It&apos;s forced by what exponentiation means.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>What a logarithm actually is</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#logarithm-intuition</link>
+      <guid isPermaLink="false">logarithm-intuition</guid>
+      <description>looks arcane. It&apos;s just the answer to: &apos;what power of gives me ?&apos;</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>Why rational numbers are countable (and irrationals aren&apos;t)</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#rational-numbers</link>
+      <guid isPermaLink="false">rational-numbers</guid>
+      <description>There are infinitely many fractions and infinitely many irrationals. Cantor showed these infinities are different sizes — and the argument is short, clean, and shocking.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>Why the Pythagorean trig identity is secretly just Pythagoras</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#trig-identities</link>
+      <guid isPermaLink="false">trig-identities</guid>
+      <description>looks like a fact to memorize. It&apos;s literally Pythagoras applied to the unit circle.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>Why the unit circle is the right picture for trigonometry</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#unit-circle</link>
+      <guid isPermaLink="false">unit-circle</guid>
+      <description>In geometry, sine and cosine are ratios in a right triangle. That&apos;s fine for acute angles but breaks for obtuse or negative angles. The unit circle fixes everything.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>Permutations vs combinations: when order matters, when it doesn&apos;t</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#permutations-combinations</link>
+      <guid isPermaLink="false">permutations-combinations</guid>
+      <description>Most probability bugs trace to confusing these two. The distinction is one sentence: does the order of your selection matter?</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>What expected value really tells you</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#expected-value</link>
+      <guid isPermaLink="false">expected-value</guid>
+      <description>Expected value is often described as &apos;the average outcome,&apos; which makes it sound like a prediction. It&apos;s actually something subtler: the long-run average, which might never happen in a single trial.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>Conditional probability: when &quot;given&quot; changes everything</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#conditional-probability</link>
+      <guid isPermaLink="false">conditional-probability</guid>
+      <description>P(A) is the probability of A alone. P(A | B) is the probability of A given that B has happened. Confusing these is the source of most probability mistakes.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>Why proof by contradiction is so powerful</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#proof-by-contradiction</link>
+      <guid isPermaLink="false">proof-by-contradiction</guid>
+      <description>Proof by contradiction says: &apos;assume the opposite, derive nonsense, conclude the original.&apos; It&apos;s the easiest technique for negative claims — and has powered some of math&apos;s deepest results.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>Why a geometric series with $|r|&lt;1$ converges</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#geometric-series</link>
+      <guid isPermaLink="false">geometric-series</guid>
+      <description>. Infinitely many terms, finite sum. Zeno was confused; the math isn&apos;t.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>Why Taylor series are so shockingly powerful</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#taylor-series-why</link>
+      <guid isPermaLink="false">taylor-series-why</guid>
+      <description>A Taylor series turns a complicated function into an infinite polynomial. That sounds useless — polynomials are simpler than, say, or — but it turns out polynomials are what calculators and CPUs can actually compute.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>Matrices are transformations wearing a disguise</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#matrix-transformation</link>
+      <guid isPermaLink="false">matrix-transformation</guid>
+      <description>Students meet matrices as grids of numbers with opaque multiplication rules. Those rules aren&apos;t arbitrary — a matrix is a linear transformation of space.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>Why the determinant is a volume</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#determinant-geometry</link>
+      <guid isPermaLink="false">determinant-geometry</guid>
+      <description>The formula for a determinant looks random. Geometrically, it&apos;s one number: the signed volume of the parallelepiped spanned by the matrix&apos;s columns.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>What eigenvalues and eigenvectors really are</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#eigenvalues-eigenvectors</link>
+      <guid isPermaLink="false">eigenvalues-eigenvectors</guid>
+      <description>An eigenvector of a matrix is a direction the matrix preserves; the eigenvalue is the factor it stretches that direction by. That simple geometric picture unlocks most of applied linear algebra.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>Modular arithmetic: clock math that runs the internet</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#modular-arithmetic</link>
+      <guid isPermaLink="false">modular-arithmetic</guid>
+      <description>Clocks wrap around at 12. That&apos;s modular arithmetic. It seems like a toy until you realize it&apos;s the bedrock of cryptography.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>The Euclidean algorithm is unreasonably fast</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#gcd-euclidean</link>
+      <guid isPermaLink="false">gcd-euclidean</guid>
+      <description>The gcd of two integers can be computed in time logarithmic in their size — a fact that&apos;s been known since 300 BC and underpins RSA key generation.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>The pigeonhole principle is ridiculous and ridiculously useful</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#pigeonhole</link>
+      <guid isPermaLink="false">pigeonhole</guid>
+      <description>If you put 13 pigeons in 12 boxes, some box has two pigeons. It sounds like a joke. It&apos;s one of combinatorics&apos; most powerful tools.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>What graphs are and why they&apos;re everywhere</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#graph-theory</link>
+      <guid isPermaLink="false">graph-theory</guid>
+      <description>A graph is a set of dots (vertices) and lines between them (edges). That minimalist definition captures road networks, social networks, neural networks, and the internet — every one of them is a graph.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>Why trees are the most useful graph</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#tree-structure</link>
+      <guid isPermaLink="false">tree-structure</guid>
+      <description>A tree is a connected graph with no cycles — equivalently, exactly one path between every pair of vertices. That tiny constraint makes trees the workhorse of computer science.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>Graph coloring and the four-color theorem</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#graph-coloring</link>
+      <guid isPermaLink="false">graph-coloring</guid>
+      <description>Can any map be colored with four colors such that adjacent regions have different colors? Yes — and the proof was one of the most controversial results in math.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>Why some &apos;infinities&apos; are bigger than others (Cantor revisited)</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#big-number-game</link>
+      <guid isPermaLink="false">big-number-game</guid>
+      <description>All infinities feel the same until you look closely. Cantor&apos;s great insight: &apos;infinite&apos; isn&apos;t a single size — there&apos;s a ladder of infinities, each strictly bigger than the last.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>Convex vs concave — and why convex is magical</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#convex-concave</link>
+      <guid isPermaLink="false">convex-concave</guid>
+      <description>A convex function is one where the line between any two points stays above the curve. That simple shape property makes optimization dramatically easier.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>Partial derivatives and why they’re just &apos;freeze and differentiate&apos;</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#partial-derivative</link>
+      <guid isPermaLink="false">partial-derivative</guid>
+      <description>A partial derivative sounds intimidating. It&apos;s a regular derivative — you just treat every other variable as a constant.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>Why the gradient points uphill</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#gradient-direction</link>
+      <guid isPermaLink="false">gradient-direction</guid>
+      <description>The gradient is the vector of partial derivatives. But why does it happen to point in the direction of steepest ascent? That&apos;s a theorem, not a definition.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>Why the chain rule works</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#chain-rule-intuitive</link>
+      <guid isPermaLink="false">chain-rule-intuitive</guid>
+      <description>The chain rule says . The multiplication feels random until you see it as the composition of two rates.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>What a surface integral actually computes</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#surface-integrals-idea</link>
+      <guid isPermaLink="false">surface-integrals-idea</guid>
+      <description>A single-variable integral adds up values along a line. A double integral over a region adds them over an area. A surface integral adds values over a curved surface — which is almost identical but with one twist.</description>
+      <category>Math</category>
+    </item>
+    <item>
+      <title>Newton’s first law is an act of radical imagination</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#newtons-first-law</link>
+      <guid isPermaLink="false">newtons-first-law</guid>
+      <description>Before Newton, everyone &apos;knew&apos; that moving objects slow down. Newton&apos;s first law says the opposite: in the absence of any force, they don&apos;t.</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>Why $F = ma$ is all of classical mechanics</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#f-equals-ma</link>
+      <guid isPermaLink="false">f-equals-ma</guid>
+      <description>One short equation, a handful of symbols, and most of the physics you&apos;ll ever use follows from it. is the Newton&apos;s Second Law, and it is doing a lot.</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>Newton’s third law: why rockets work without pushing off anything</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#newtons-third-law</link>
+      <guid isPermaLink="false">newtons-third-law</guid>
+      <description>Every force has an equal and opposite force. Familiar — and the reason rockets work in the vacuum of space, where there&apos;s nothing for them to push against.</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>Friction is weirder than you think</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#friction-not-simple</link>
+      <guid isPermaLink="false">friction-not-simple</guid>
+      <description>Friction feels like a simple fact of life. Up close, it&apos;s a mess of electromagnetic interactions, surface roughness, and breakdowns that physicists still argue about.</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>Why projectile motion splits into two independent problems</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#projectile-motion</link>
+      <guid isPermaLink="false">projectile-motion</guid>
+      <description>A baseball thrown at an angle follows a curved path. Analyzing it feels hard — until you realize horizontal and vertical motion don&apos;t talk to each other.</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>Why circular motion requires constant force</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#circular-motion-force</link>
+      <guid isPermaLink="false">circular-motion-force</guid>
+      <description>A planet orbiting the sun moves in a (near) circle at constant speed. But Newton says — so there must be a force. Where is it?</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>Why gravity drops off as distance squared</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#gravity-inverse-square</link>
+      <guid isPermaLink="false">gravity-inverse-square</guid>
+      <description>Newton found that gravitational force between two masses scales as . That&apos;s not arbitrary — it&apos;s a geometric fact about how things spread in 3D space.</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>Conservation of energy, explained</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#energy-conservation</link>
+      <guid isPermaLink="false">energy-conservation</guid>
+      <description>Energy can&apos;t be created or destroyed, only transformed. The law sounds like common sense — but it was hard-won, and it&apos;s deeply tied to the symmetries of time.</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>Why momentum is conserved</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#momentum</link>
+      <guid isPermaLink="false">momentum</guid>
+      <description>Total momentum of a closed system never changes. It&apos;s why a rifle kicks back when fired and why a figure skater speeds up when pulling in her arms (angular version).</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>The work-energy theorem in one page</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#work-energy-theorem</link>
+      <guid isPermaLink="false">work-energy-theorem</guid>
+      <description>If you push an object across some distance, its kinetic energy changes by exactly the amount of work you did. Simple to state, extremely useful.</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>What makes something a wave</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#waves-basic</link>
+      <guid isPermaLink="false">waves-basic</guid>
+      <description>Water waves, sound waves, light waves, quantum wave functions. What do they have in common, and why do they all show the same behaviors?</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>Why the speed of sound depends on the medium</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#sound-speed</link>
+      <guid isPermaLink="false">sound-speed</guid>
+      <description>Sound travels fastest through steel, slower through water, slower still through air, and not at all through vacuum. The reason traces back to two simple quantities.</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>The Doppler effect, intuitively</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#doppler-intuition</link>
+      <guid isPermaLink="false">doppler-intuition</guid>
+      <description>An ambulance approaches and its siren sounds high-pitched; it passes and the pitch drops. Why? The wavelengths get compressed in front of the source and stretched behind it.</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>What an electric field actually is</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#electric-field</link>
+      <guid isPermaLink="false">electric-field</guid>
+      <description>&apos;Action at a distance&apos; felt spooky to physicists for centuries. The concept of a field was the fix: charges don&apos;t reach across space magically — they set up a field, and the field does the pushing.</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>Magnetism is electricity, seen from a different reference frame</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#magnetism-rel</link>
+      <guid isPermaLink="false">magnetism-rel</guid>
+      <description>Magnetism and electricity feel like two separate phenomena. They&apos;re actually the same phenomenon, viewed from different velocities. Einstein&apos;s special relativity is what made the connection inevitable.</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>Entropy isn’t disorder — it’s counting</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#entropy-intuitive</link>
+      <guid isPermaLink="false">entropy-intuitive</guid>
+      <description>&apos;Entropy = disorder&apos; is the lazy version. The real definition — entropy counts the number of microscopic states consistent with a macroscopic observation — is more precise and more useful.</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>Why $PV = nRT$ works for every gas</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#ideal-gas</link>
+      <guid isPermaLink="false">ideal-gas</guid>
+      <description>Pressure, volume, temperature, moles — and one equation that relates them for every gas. The simplicity is no accident.</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>Special relativity from one weird principle</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#special-relativity</link>
+      <guid isPermaLink="false">special-relativity</guid>
+      <description>Einstein&apos;s 1905 paper had one weird postulate: the speed of light is the same for every observer, regardless of their motion. Everything strange about relativity — time dilation, length contraction, — follows from it.</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>The double-slit experiment, the weirdest demo in science</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#quantum-double-slit</link>
+      <guid isPermaLink="false">quantum-double-slit</guid>
+      <description>Shoot particles one at a time through two slits. They form an interference pattern — as if each particle went through both slits and interfered with itself. Every strangeness of quantum mechanics is in this one experiment.</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>Heisenberg’s uncertainty principle isn’t about measurement</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#uncertainty-principle</link>
+      <guid isPermaLink="false">uncertainty-principle</guid>
+      <description>The usual explanation — &apos;measuring a particle disturbs it&apos; — is half-right. The deeper truth: position and momentum don&apos;t simultaneously have definite values. It&apos;s not about our instruments; it&apos;s about reality.</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>What a photon actually is</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#photon</link>
+      <guid isPermaLink="false">photon</guid>
+      <description>Light is a wave. Light is also a particle. The &apos;particle&apos; is called a photon, and its properties reveal how weirdly quantum the world gets.</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>Black holes: simpler than they sound</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#black-holes</link>
+      <guid isPermaLink="false">black-holes</guid>
+      <description>A black hole is just enough mass in a small enough volume that escape velocity exceeds the speed of light. That single idea explains almost everything strange about them.</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>What the Big Bang actually was (and wasn’t)</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#big-bang</link>
+      <guid isPermaLink="false">big-bang</guid>
+      <description>The Big Bang wasn&apos;t an explosion in space. It was an expansion of space itself, everywhere, all at once. The distinction matters.</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>Why a pendulum’s period only depends on its length</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#pendulum-period</link>
+      <guid isPermaLink="false">pendulum-period</guid>
+      <description>Swing a pendulum, time one swing. Change the mass — same time. Change the starting angle (small angles) — same time. Change the length — time changes. Why doesn&apos;t mass matter?</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>What the Higgs field gives mass to (and what it doesn’t)</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#higgs-intuitive</link>
+      <guid isPermaLink="false">higgs-intuitive</guid>
+      <description>The Higgs field is often described as &apos;giving mass to particles.&apos; That&apos;s mostly true but with a huge asterisk — most of your mass isn&apos;t from the Higgs.</description>
+      <category>Physics</category>
+    </item>
+    <item>
+      <title>Why the periodic table has that weird shape</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#periodic-table-why-shape</link>
+      <guid isPermaLink="false">periodic-table-why-shape</guid>
+      <description>Two rows of two at the top, then rows of eight, then weird bulges for transition metals. The shape isn’t decorative — it’s quantum mechanics on a page.</description>
+      <category>Chemistry</category>
+    </item>
+    <item>
+      <title>Why water breaks every rule</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#why-water-weird</link>
+      <guid isPermaLink="false">why-water-weird</guid>
+      <description>Ice floats, water is a liquid at room temperature, and it dissolves most salts. Similar molecules (like H₂S) do none of this. Why is water so special?</description>
+      <category>Chemistry</category>
+    </item>
+    <item>
+      <title>pH is a log scale — that’s why a unit matters so much</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#ph-log-scale</link>
+      <guid isPermaLink="false">ph-log-scale</guid>
+      <description>Lemon juice (pH 2) and coffee (pH 5) don’t seem that different. But coffee is a thousand times less acidic than lemon juice. Here’s why.</description>
+      <category>Chemistry</category>
+    </item>
+    <item>
+      <title>Le Chatelier’s principle: why reactions push back</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#equilibrium-le-chatelier</link>
+      <guid isPermaLink="false">equilibrium-le-chatelier</guid>
+      <description>Squeeze a reaction and it fights back. Chemistry looks like it’s alive when you shift its conditions.</description>
+      <category>Chemistry</category>
+    </item>
+    <item>
+      <title>Catalysts don’t change what’s possible — just what’s fast</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#catalysts-how-they-work</link>
+      <guid isPermaLink="false">catalysts-how-they-work</guid>
+      <description>Platinum in your car’s catalytic converter turns toxic CO into CO₂, but the platinum is unchanged. How can something participate in a reaction without being consumed?</description>
+      <category>Chemistry</category>
+    </item>
+    <item>
+      <title>Why entropy decides which reactions happen</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#entropy-chemistry</link>
+      <guid isPermaLink="false">entropy-chemistry</guid>
+      <description>Ice melts in a warm room even though bonds are breaking (which costs energy). Why? Because disorder won.</description>
+      <category>Chemistry</category>
+    </item>
+    <item>
+      <title>Functional groups: why carbon owns chemistry</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#organic-functional-groups</link>
+      <guid isPermaLink="false">organic-functional-groups</guid>
+      <description>There are over 100 elements, but one of them — carbon — makes up 10 million known compounds. Why?</description>
+      <category>Chemistry</category>
+    </item>
+    <item>
+      <title>Oxidation and reduction: follow the electrons</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#redox-intuition</link>
+      <guid isPermaLink="false">redox-intuition</guid>
+      <description>Batteries, rust, and photosynthesis all have the same hidden structure: electrons hopping from one atom to another.</description>
+      <category>Chemistry</category>
+    </item>
+    <item>
+      <title>Why 2H₂ + O₂ → 2H₂O and not something else</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#why-stoichiometry-works</link>
+      <guid isPermaLink="false">why-stoichiometry-works</guid>
+      <description>Chemical equations have specific integer coefficients. You can’t make 1.5 molecules of water. Why are ratios so rigid?</description>
+      <category>Chemistry</category>
+    </item>
+    <item>
+      <title>Why reactions speed up with heat</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#kinetics-temperature</link>
+      <guid isPermaLink="false">kinetics-temperature</guid>
+      <description>Milk spoils faster in summer. Bread bakes faster in a hot oven. Rule of thumb: rates double per 10°C. Where does that come from?</description>
+      <category>Chemistry</category>
+    </item>
+    <item>
+      <title>Why things are solid, liquid, or gas</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#intermolecular-forces-states</link>
+      <guid isPermaLink="false">intermolecular-forces-states</guid>
+      <description>At room temp, nitrogen is a gas, water is a liquid, and iron is a solid. All that’s different is how tightly molecules cling to each other.</description>
+      <category>Chemistry</category>
+    </item>
+    <item>
+      <title>Thermodynamics says yes, kinetics says wait</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#le-chatelier-vs-kinetics</link>
+      <guid isPermaLink="false">le-chatelier-vs-kinetics</guid>
+      <description>Diamond turns into graphite — but not in your lifetime. Thermodynamics and kinetics often disagree.</description>
+      <category>Chemistry</category>
+    </item>
+    <item>
+      <title>Why $PV = nRT$ works so well</title>
+      <link>https://ravigupta-create.github.io/topictree-app/deep-dives#ideal-gas-law-why</link>
+      <guid isPermaLink="false">ideal-gas-law-why</guid>
+      <description>One tidy equation describes nearly every gas in your life. It shouldn’t work this cleanly — but it does.</description>
+      <category>Chemistry</category>
+    </item>
+  </channel>
+</rss>

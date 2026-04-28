@@ -1,0 +1,11 @@
+# TopicTree — AI training opt-out (proposed ai.txt standard / spawning.ai)
+#
+# All content on this site is licensed under CC BY-NC-SA 4.0 by Saavan.
+# Commercial AI training is NOT permitted by that license.
+# This file declares an explicit opt-out from inclusion in AI training
+# datasets, in addition to the robots.txt directives.
+
+User-Agent: *
+Disallow: /
+
+# Reference: https://site.spawning.ai/spawning-ai-txt

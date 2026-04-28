@@ -1,0 +1,89 @@
+{
+  "name": "TopicTree — Free Study Tools",
+  "short_name": "TopicTree",
+  "description": "200+ free study tools with flashcards, quizzes, spaced repetition, progress tracking, and 120+ courses.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#111827",
+  "theme_color": "#9333ea",
+  "categories": ["education", "productivity"],
+  "lang": "en",
+  "dir": "ltr",
+  "date_published": "2026-03-11",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Daily Practice",
+      "short_name": "Practice",
+      "url": "./daily-practice",
+      "icons": [{ "src": "favicon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Progress Dashboard",
+      "short_name": "Progress",
+      "url": "./progress-dashboard",
+      "icons": [{ "src": "favicon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Spaced Repetition",
+      "short_name": "Review",
+      "url": "./spaced-repetition",
+      "icons": [{ "src": "favicon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Lesson Theater",
+      "short_name": "Lessons",
+      "url": "./lesson-theater",
+      "icons": [{ "src": "favicon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Deep Dives",
+      "short_name": "Read",
+      "url": "./deep-dives",
+      "icons": [{ "src": "favicon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Flashcards",
+      "short_name": "Cards",
+      "url": "./flashcard-mode",
+      "icons": [{ "src": "favicon.svg", "sizes": "any" }]
+    }
+  ],
+  "share_target": {
+    "action": "./homework",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "q",
+      "url": "url"
+    }
+  }
+}

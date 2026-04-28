@@ -1,0 +1,68 @@
+TopicTree
+Copyright (c) 2026 Saavan. All rights reserved.
+
+This work — the TopicTree source code, original lesson content, BKT
+adaptive engine, content validator, math parser, homework solver, and all
+other original creative work in this repository — is authored by Saavan
+Gupta and is licensed under the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
+
+You are free to:
+
+  Share — copy and redistribute the material in any medium or format
+  Adapt — remix, transform, and build upon the material
+
+Under the following terms:
+
+  Attribution (BY) — You must give appropriate credit to Saavan as
+  the original author, provide a link to this license, and indicate if
+  changes were made. You may do so in any reasonable manner, but not in
+  any way that suggests Saavan endorses you or your use.
+
+  NonCommercial (NC) — You may not use the material for commercial
+  purposes. Selling access, charging subscription fees, displaying ads
+  alongside the material, bundling it into a paid product, or otherwise
+  monetizing it directly or indirectly is not permitted.
+
+  ShareAlike (SA) — If you remix, transform, or build upon the material,
+  you must distribute your contributions under this same CC BY-NC-SA 4.0
+  license. You may not release a derivative under a different license or
+  as proprietary / closed-source.
+
+  No additional restrictions — You may not apply legal terms or
+  technological measures that legally restrict others from doing anything
+  this license permits.
+
+Notices:
+
+  You do not have to comply with the license for elements of the material
+  in the public domain or where your use is permitted by an applicable
+  exception or limitation (e.g., fair use).
+
+  No warranties are given. The license may not give you all of the
+  permissions necessary for your intended use. For example, other rights
+  such as publicity, privacy, or moral rights may limit how you use the
+  material.
+
+The full legal code is available at:
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+For a human-readable summary, see:
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+------------------------------------------------------------------------
+
+Third-party content acknowledgement:
+
+  Curated Khan Academy video deep-links (under /videos) point to videos
+  produced and hosted by Khan Academy under their own CC BY-NC-SA 4.0
+  license. Khan Academy retains credit for those videos. TopicTree does
+  not host or modify the videos themselves.
+
+  Build- and runtime dependencies (Next.js, React, etc.) retain their
+  individual open-source licenses; see node_modules/<package>/LICENSE.
+
+------------------------------------------------------------------------
+
+For licensing questions or commercial-use inquiries, open an issue at:
+https://github.com/ravigupta-create/topictree-app/issues

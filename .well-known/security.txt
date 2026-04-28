@@ -1,0 +1,5 @@
+Contact: https://github.com/ravigupta-create/topictree-app/issues
+Expires: 2027-12-31T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://ravigupta-create.github.io/topictree-app/.well-known/security.txt
+Policy: https://github.com/ravigupta-create/topictree-app/blob/main/README.md
