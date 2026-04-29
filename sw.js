@@ -6,7 +6,7 @@
 // CACHE_NAME is rewritten by `scripts/inject-static-hero.mjs` on every build
 // to a `topictree-{buildHash}` string, so users automatically get a fresh
 // cache on every deploy without needing manual bumps.
-const CACHE_NAME = 'topictree-mokgfudq'; // <-- REPLACED AT BUILD TIME -->
+const CACHE_NAME = 'topictree-mokh41ug'; // <-- REPLACED AT BUILD TIME -->
 const RUNTIME_CACHE = CACHE_NAME + '-runtime'; // for SWR JS / fonts / images
 const BASE = self.registration.scope; // ends with `/topictree-app/` (or `/` in dev)
 
