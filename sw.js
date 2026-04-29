@@ -1,14 +1,14 @@
-// StudyBoost service worker — offline-first for the cached static shell + JS
+// TopicTree service worker — offline-first for the cached static shell + JS
 // chunks + content JSON. The site is supposed to work fully offline once the
 // user has visited it online; bugs in either the precache list or the fetch
 // strategy break that promise.
 //
 // CACHE_NAME is rewritten by `scripts/inject-static-hero.mjs` on every build
-// to a `studyboost-{buildHash}` string, so users automatically get a fresh
+// to a `topictree-{buildHash}` string, so users automatically get a fresh
 // cache on every deploy without needing manual bumps.
-const CACHE_NAME = 'topictree-mok5nsvy'; // <-- REPLACED AT BUILD TIME -->
+const CACHE_NAME = 'topictree-mok725bd'; // <-- REPLACED AT BUILD TIME -->
 const RUNTIME_CACHE = CACHE_NAME + '-runtime'; // for SWR JS / fonts / images
-const BASE = self.registration.scope; // ends with `/studyboost-app/`
+const BASE = self.registration.scope; // ends with `/topictree-app/` (or `/` in dev)
 
 // Pages to precache for offline access. ALL with trailing slash to match
 // trailingSlash: true Next config — without the slash, GitHub Pages 404s
