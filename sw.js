@@ -6,7 +6,7 @@
 // CACHE_NAME is rewritten by `scripts/inject-static-hero.mjs` on every build
 // to a `studyboost-{buildHash}` string, so users automatically get a fresh
 // cache on every deploy without needing manual bumps.
-const CACHE_NAME = 'topictree-mojb2xgm'; // <-- REPLACED AT BUILD TIME -->
+const CACHE_NAME = 'topictree-mok5nsvy'; // <-- REPLACED AT BUILD TIME -->
 const RUNTIME_CACHE = CACHE_NAME + '-runtime'; // for SWR JS / fonts / images
 const BASE = self.registration.scope; // ends with `/studyboost-app/`
 
@@ -214,6 +214,54 @@ async function staleWhileRevalidate(request, cacheName, fallback) {
   const fresh = await networkPromise;
   if (fresh) return fresh;
   return fallback ? fallback() : new Response('', { status: 408 });
+}
+
+// Tapping the daily-reminder notification: focus an existing TopicTree tab
+// if there is one and steer it to /smart-review (so the user lands on the
+// most-useful surface for the reminder), or open a fresh window otherwise.
+self.addEventListener('notificationclick', (event) => {
+  if (event.notification?.tag !== 'topictree-daily-reminder') return;
+  event.notification.close();
+  const target = BASE + 'smart-review/';
+  event.waitUntil(
+    self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then((wins) => {
+      for (const w of wins) {
+        if (w.url.startsWith(self.registration.scope)) {
+          // navigate then focus
+          if ('navigate' in w) {
+            return w.navigate(target).then(() => w.focus());
+          }
+          return w.focus();
+        }
+      }
+      return self.clients.openWindow(target);
+    }),
+  );
+});
+
+// Periodic Background Sync (Chrome only, requires PWA install + permission).
+// Tag 'content-refresh' fires once a day at most (interval is a hint, browser
+// decides). When it fires we re-fetch the precached content JSON in the
+// background so a user opening the app offline tomorrow gets fresh data.
+// All other browsers ignore this; the app's normal SWR fetches keep working.
+self.addEventListener('periodicsync', (event) => {
+  if (event.tag !== 'content-refresh') return;
+  event.waitUntil(refreshPrecachedContent());
+});
+
+async function refreshPrecachedContent() {
+  try {
+    const cache = await caches.open(CACHE_NAME);
+    await Promise.allSettled(
+      PRECACHE_CONTENT.map(async (url) => {
+        const req = new Request(BASE + url, { cache: 'no-store' });
+        const res = await fetch(req);
+        if (res && res.ok) await cache.put(BASE + url, res.clone());
+      }),
+    );
+  } catch {
+    // No-op: periodic sync is best-effort, the app still works without it.
+  }
 }
 
 async function networkFirstHtml(request) {
