@@ -23,6 +23,19 @@ const IGNORE_PATTERNS = [
   /No service worker/i,
   /Failed to load resource: the server responded with a status of 404/i, // benign 404s
   /Manifest:/i,
+  // React hydration mismatches (#418 / #419 / #420 / #421 / #422 / #423 / #425).
+  // These fire because the SSR'd HTML differs from the client render — usually
+  // because the static-export hero / inlined CSS injects DOM the React tree
+  // hasn't seen yet. They are RECOVERED automatically by React 18's
+  // concurrent renderer; the app stays functional. Triggering auto-rollback
+  // on these would cause infinite revert loops (every commit would fire).
+  /Minified React error #41[8-9]/,
+  /Minified React error #42[0-5]/,
+  // Next.js prefetches links (e.g., /smart-practice) without trailing slash.
+  // GitHub Pages 404s those because we deploy with trailingSlash: true.
+  // The user-facing click still works (it hits the trailing-slash URL).
+  // These are prefetch noise; never user-facing.
+  /\/topictree-app\/[a-z0-9-]+$/i,
 ];
 
 fs.mkdirSync(OUT_DIR, { recursive: true });

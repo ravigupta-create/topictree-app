@@ -43,18 +43,6 @@ jobs:
           path: smoke-results/
           retention-days: 7
 
-      - name: Read report
-        id: report
-        if: always()
-        run: |
-          if [ -f smoke-results/report.md ]; then
-            {
-              echo "report<<REPORT_EOF"
-              cat smoke-results/report.md
-              echo "REPORT_EOF"
-            } >> "$GITHUB_OUTPUT"
-          fi
-
       - name: Auto-rollback gh-pages on failure
         if: steps.smoke.outcome == 'failure'
         env:
