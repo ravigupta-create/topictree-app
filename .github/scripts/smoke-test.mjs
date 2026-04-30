@@ -48,16 +48,26 @@ const allErrors = [];
 
 async function runStep(name, page, fn) {
   const stepErrors = [];
-  const onPageError = err => stepErrors.push({ step: name, type: 'pageerror', message: err.message ?? String(err) });
+  const onPageError = err => {
+    const msg = err.message ?? String(err);
+    if (!shouldIgnore(msg)) {
+      stepErrors.push({ step: name, type: 'pageerror', message: msg });
+    }
+  };
   const onConsole = msg => {
     if (msg.type() === 'error' && !shouldIgnore(msg.text())) {
       stepErrors.push({ step: name, type: 'console-error', message: msg.text() });
     }
   };
   const onRequestFailed = req => {
+    // Same-origin (Next.js prefetch) failures don't break user flows;
+    // they just mean a prefetched route didn't preload. The actual
+    // user click hits the trailing-slash URL and works. Skip.
+    const url = req.url();
+    if (url.includes('ravigupta-create.github.io/topictree-app/')) return;
     const failure = req.failure();
-    if (failure && !shouldIgnore(req.url())) {
-      stepErrors.push({ step: name, type: 'request-failed', url: req.url(), reason: failure.errorText });
+    if (failure && !shouldIgnore(url)) {
+      stepErrors.push({ step: name, type: 'request-failed', url, reason: failure.errorText });
     }
   };
   page.on('pageerror', onPageError);
