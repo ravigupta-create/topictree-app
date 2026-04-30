@@ -1,0 +1,108 @@
+name: Health check
+
+on:
+  schedule:
+    # Every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout main (workflow + scripts)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Playwright
+        run: |
+          npm install --no-save playwright
+          npx playwright install chromium --with-deps
+
+      - name: Run smoke tests
+        id: smoke
+        run: node .github/scripts/smoke-test.mjs
+        continue-on-error: true
+
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: smoke-results-${{ github.run_id }}
+          path: smoke-results/
+          retention-days: 7
+
+      - name: Read report
+        id: report
+        if: always()
+        run: |
+          if [ -f smoke-results/report.md ]; then
+            {
+              echo "report<<REPORT_EOF"
+              cat smoke-results/report.md
+              echo "REPORT_EOF"
+            } >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Auto-rollback gh-pages on failure
+        if: steps.smoke.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          # Clone gh-pages with full history so we can revert.
+          git clone --branch gh-pages --depth 5 \
+            "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" rollback-pages
+          cd rollback-pages
+          git config user.name "topictree-bot"
+          git config user.email "bot@topictree.local"
+          # Bail out if HEAD is already a revert — don't loop.
+          if git log -1 --pretty=%s | grep -qiE "revert|^auto-rollback"; then
+            echo "Last gh-pages commit is already a revert. Skipping auto-rollback."
+            exit 0
+          fi
+          # Bail out if there's no parent (no history to revert to).
+          if ! git rev-parse HEAD~1 >/dev/null 2>&1; then
+            echo "No prior commit to roll back to. Skipping."
+            exit 0
+          fi
+          echo "Reverting latest gh-pages commit:"
+          git log -1 --oneline
+          git revert --no-edit HEAD
+          git push origin gh-pages
+
+      - name: Open issue on failure
+        if: steps.smoke.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const reportPath = 'smoke-results/report.md';
+            const report = fs.existsSync(reportPath)
+              ? fs.readFileSync(reportPath, 'utf-8')
+              : 'No report generated.';
+            const runUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Health check failed at ${new Date().toISOString()}`,
+              body: [
+                `Auto-rollback was attempted (see job log).`,
+                ``,
+                `**Run:** ${runUrl}`,
+                ``,
+                report,
+              ].join('\n'),
+              labels: ['health-check', 'automated'],
+            });
