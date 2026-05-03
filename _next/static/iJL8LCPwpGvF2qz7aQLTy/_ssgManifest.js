@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fap\u002F[subject]","\u002Fap\u002F[subject]\u002F[year]","\u002Fap\u002F[subject]\u002Fscore","\u002Fsources\u002F[slug]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
